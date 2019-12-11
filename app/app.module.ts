@@ -3,6 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome.component'
+import { FriendsComponent } from './friends.component'
+import { HelloComponent } from './hello.component'
+import { GreetingComponent } from './greeting.component'
 
 @NgModule({
   imports: [
@@ -14,7 +17,10 @@ import { WelcomeComponent } from './welcome.component'
   ],
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    FriendsComponent,
+    HelloComponent,
+    GreetingComponent
   ]
 })
 export class AppModule {}

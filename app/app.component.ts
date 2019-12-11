@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   template: `
     <div class="app">
      <welcome></welcome>
+     <friends></friends>
+     <hello></hello>
+     <greeting></greeting>
     </div>
   `
 })

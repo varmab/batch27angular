@@ -5,7 +5,6 @@ import { Component } from '@angular/core'
     template:`
     <div>
         Welcome to 
-        
        <br/>
         Enter name
         <input type="text" [(ngModel)]="name"  #username/>
@@ -15,5 +14,4 @@ import { Component } from '@angular/core'
 })
 export class WelcomeComponent {
     name:string="Varma";
-
 }
