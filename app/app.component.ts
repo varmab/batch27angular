@@ -9,6 +9,7 @@ import { Component } from '@angular/core';
      <friends></friends>
      <hello></hello>
      <greeting></greeting>
+     <bookslibrary></bookslibrary>
     </div>
   `
 })
